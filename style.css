@@ -1,0 +1,12 @@
+output { 
+    font-size: 32px;
+    color: purple;
+}
+
+.loading::before { 
+    content: 'loading';
+}
+
+.loading { 
+    visibility: hidden;
+}
